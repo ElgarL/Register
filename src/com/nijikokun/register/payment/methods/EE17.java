@@ -218,8 +218,13 @@ public class EE17 implements Method {
         }
 
         public boolean remove() {
-            return false;
-        }
+    		try {
+				Economy.removeNPC(name);
+				return true;
+			} catch (Exception e) {
+				return false;
+			}
+    }
         
         /**
          * Wrappers

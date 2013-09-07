@@ -5,3 +5,5 @@
 	- Minor changes for event priority and Method test.
 1.8:
 	- Fix Craftconomy currency handling.
+1.9:
+	- Add support for deleting accounts with Essentials Eco.
